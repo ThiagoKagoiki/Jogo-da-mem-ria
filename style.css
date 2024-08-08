@@ -79,3 +79,10 @@ h2{
 .boxMatch::after{
     transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+}
